@@ -1,11 +1,13 @@
-<script lang="ts">
-    export let segment: string | undefined;
-
+<script lang="ts" context="module">
     export interface ILink {
         segment?: string;
         href: string;
         text: string;
     }
+</script>
+
+<script lang="ts">
+    export let segment: string | undefined;
 
     export let links: ILink[] = [];
 </script>
@@ -39,7 +41,7 @@
 
     li {
         float: start;
-        display: inline-block;
+        display: inline-flex;
     }
 
     [aria-current] {

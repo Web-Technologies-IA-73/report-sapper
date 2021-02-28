@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru"></iframe>
+<iframe src="https://ccdplanet.ru" title="Головна сторінка"></iframe>

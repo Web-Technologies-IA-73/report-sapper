@@ -13,22 +13,22 @@
                     {
                         segment: undefined,
                         href: 'lab1/site_appearance',
-                        text: 'Главная страница',
+                        text: 'Головна сторінка',
                     },
                     {
-                        segment: 'how_to_play',
-                        href: 'lab1/site_appearance/how_to_play',
-                        text: 'Как играть',
+                        segment: 'catalogue',
+                        href: 'lab1/site_appearance/catalogue',
+                        text: 'Сторінка з каталогом смартфонів',
                     },
                     {
-                        segment: 'server',
-                        href: 'lab1/site_appearance/server',
-                        text: 'Сервер',
+                        segment: 'product',
+                        href: 'lab1/site_appearance/product',
+                        text: 'Сторінка для перегляду розширеної інформації про обраний смартфон',
                     },
                     {
-                        segment: 'donate',
-                        href: 'lab1/site_appearance/donate',
-                        text: 'Донат',
+                        segment: 'cart',
+                        href: 'lab1/site_appearance/cart',
+                        text: 'Кошик користувача',
                     },
                 ]}
         />

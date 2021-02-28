@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru/donat"></iframe>
+<iframe src="https://ccdplanet.ru/donat" title="Донат"></iframe>

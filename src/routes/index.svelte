@@ -64,18 +64,18 @@
 </style>
 
 <svelte:head>
-    <title>Лабораторные работы</title>
+    <title>Лабораторні роботи</title>
 </svelte:head>
 
 
-<h1>Лабораторные работы</h1>
-<p class="subheader"><strong>по предмету Web-технологии</strong></p>
+<h1>Лабораторні роботи</h1>
+<p class="subheader"><strong>з предмету Web-технології</strong></p>
 
-<h2>Выполнили</h2>
-<p><strong>Студенты группы ИА-73</strong></p>
+<h2>Виконали</h2>
+<p><strong>Студенти групи ІА-73</strong></p>
 <ul>
     <li>
-        Шевченко Данила
+        Шевченко Данило
         <span class="links">
             <a
                     href="https://github.com/alienvspredator"
@@ -92,7 +92,7 @@
         </span>
     </li>
     <li>
-        Савчук Александр
+        Савчук Олександр
         <span class="links">
             <a
                     href="https://github.com/tachka123"

@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru/server"></iframe>
+<iframe src="https://ccdplanet.ru/server" title="Сервер"></iframe>

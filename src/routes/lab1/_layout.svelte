@@ -3,6 +3,7 @@
     import LabNav from '../../components/LabNav.svelte';
 
     export let segment: string | undefined;
+    console.log(segment);
 </script>
 
 <svelte:head>
@@ -17,32 +18,32 @@
                     {
                         segment: undefined,
                         href: 'lab1',
-                        text: 'Постановка задачи',
+                        text: 'Постановка задачі',
                     },
                     {
                         segment: 'development_environment',
                         href: 'lab1/development_environment',
-                        text: 'Среда разработки',
+                        text: 'Середа розробки',
                     },
                     {
                         segment: 'site_location',
                         href: 'lab1/site_location',
-                        text: 'Место расположения сайта',
+                        text: 'Місце розташування сайту',
                     },
                     {
                         segment: 'description_of_the_subject_environment',
                         href: 'lab1/description_of_the_subject_environment',
-                        text: 'Описание предметной области',
+                        text: 'Опис предметного середовища',
                     },
                     {
                         segment: 'site_appearance',
                         href: 'lab1/site_appearance',
-                        text: 'Внешний вид сайта',
+                        text: 'Зовнішній вигляд сайту',
                     },
                     {
                         segment: 'conclusion',
                         href: 'lab1/conclusion',
-                        text: 'Выводы',
+                        text: 'Висновки',
                     },
                 ]}
         />
