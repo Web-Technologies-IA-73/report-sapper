@@ -3,7 +3,6 @@
     import LabNav from '../../components/LabNav.svelte';
 
     export let segment: string | undefined;
-    console.log(segment);
 </script>
 
 <svelte:head>
