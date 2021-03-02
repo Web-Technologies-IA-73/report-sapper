@@ -1,5 +1,6 @@
 <script lang="ts">
     import {onMount} from "svelte";
+    import lab3Target from 'images/lab3/savchuk/target.png';
 
     let Prism;
     onMount(async () => {
@@ -25,6 +26,9 @@
         border-radius: 12px;
     }
 </style>
+
+<h3>Завдання</h3>
+<img src=".{lab3Target}" alt="target">
 
 <h3>Код</h3>
 <a href="https://github.com/Web-Technologies-IA-73/personal_tasks/tree/main/savchuk/flexbox">GitHub</a>
