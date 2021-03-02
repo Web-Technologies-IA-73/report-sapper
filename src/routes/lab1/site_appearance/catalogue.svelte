@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru/start" title="Начать играть"></iframe>
+<iframe src="https://web-technologies-ia-73.github.io/labs/pages/catalog" title="Каталог"></iframe>

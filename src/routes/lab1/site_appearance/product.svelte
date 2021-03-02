@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru/server" title="Сервер"></iframe>
+<iframe src="https://web-technologies-ia-73.github.io/labs/pages/product" title="Товар"></iframe>

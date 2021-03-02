@@ -7,4 +7,4 @@
     }
 </style>
 
-<iframe src="https://ccdplanet.ru/donat" title="Донат"></iframe>
+<iframe src="https://web-technologies-ia-73.github.io/labs/pages/basket" title="Кошик"></iframe>
