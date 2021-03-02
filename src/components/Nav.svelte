@@ -50,6 +50,7 @@
 
 <nav>
     <ul>
+        <li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Головна</a></li>
         <li><a aria-current="{segment === 'lab1' ? 'page' : undefined}" href="lab1">Лабораторна №1</a></li>
         <li><a aria-current="{segment === 'lab2' ? 'page' : undefined}" href="lab2">Лабораторна №2</a></li>
         <li><a aria-current="{segment === 'lab3' ? 'page' : undefined}" href="lab3">Лабораторна №3</a></li>
