@@ -16,8 +16,23 @@
                 links={[
                     {
                         segment: undefined,
-                        href: 'lab1',
-                        text: 'Постановка задачи',
+                        href: 'lab4',
+                        text: 'Постановка задачі',
+                    },
+                    {
+                        segment: 'js',
+                        href: 'lab4/js',
+                        text: 'JavaScript на власному сайті',
+                    },
+                    {
+                        segment: 'task_1',
+                        href: 'lab4/task_1/shevchenko',
+                        text: 'Індивідуальне завдання №1',
+                    },
+                    {
+                        segment: 'task_2',
+                        href: 'lab4/task_2/shevchenko',
+                        text: 'Індивідуальне завдання №2',
                     },
                 ]}
         />

@@ -16,8 +16,8 @@
                 links={[
                     {
                         segment: undefined,
-                        href: 'lab1',
-                        text: 'Постановка задачи',
+                        href: 'lab6',
+                        text: 'Постановка задачі',
                     },
                 ]}
         />

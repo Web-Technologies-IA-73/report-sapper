@@ -29,6 +29,56 @@ code {
 	border-radius: 2px;
 }
 
+table {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .12);
+	border-radius: 4px;
+	-webkit-border-horizontal-spacing: 2px;
+	-webkit-border-vertical-spacing: 2px;
+}
+
+thead {
+	vertical-align: middle;
+}
+
+tr {
+	border-top-width: 1px;
+	border-top-style: solid;
+	display: table-row;
+}
+
+th {
+	font-size: .875rem;
+	line-height: 1.375rem;
+	font-weight: 500;
+	letter-spacing: .0071428571em;
+	text-align: left;
+	padding-right: 16px;
+	padding-left: 16px;
+	height: 56px;
+	color: rgba(0, 0, 0, .87);
+}
+
+td {
+	font-size: .875rem;
+	line-height: 1.25rem;
+	font-weight: 400;
+	letter-spacing: .0178571429em;
+	padding-right: 16px;
+	padding-left: 16px;
+	height: 52px;
+	color: rgba(0, 0, 0, .87);
+}
+
+tbody {
+	font-size: .875rem;
+	line-height: 1.25rem;
+	font-weight: 400;
+	letter-spacing: .0178571429em;
+	display: table-row-group;
+	vertical-align: middle;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;
