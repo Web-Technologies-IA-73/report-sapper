@@ -190,7 +190,7 @@
                         }
                     }}
             >
-                &lt;
+                &lt\;
             </button>
         </td>
         <td colspan="5">
@@ -229,7 +229,7 @@
                         }
                     }}
             >
-                &gt;
+                &gt\;
             </button>
         </td>
     </tr>
