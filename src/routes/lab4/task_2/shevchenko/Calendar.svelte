@@ -129,7 +129,7 @@
 
     const clickLis = (elem: HTMLButtonElement, ev: HTMLElementEventMap['click']) => {
         const date = Day.deserialize(elem.getAttribute("theDay"));
-        if (date.serialize() === selected?.serialize()) {
+        if (selected && selected.serialize() === date.serialize()) {
             selected = undefined;
         } else {
             selected = date;
@@ -209,7 +209,7 @@
             {#each week as day (day.serialize())}
                 <td>
                     <button
-                            class="day-of-week {day.type !== 'current-month' ? 'not-current-month' : ''} {selected?.serialize() === day.serialize() ? 'active' : ''}"
+                            class="day-of-week {day.type !== 'current-month' ? 'not-current-month' : ''} {selected && selected.serialize() === day.serialize() ? 'active' : ''}"
                             type="button"
                             theDay="{day.serialize()}"
                             on:click={function(ev) { clickLis(this, ev) }}
