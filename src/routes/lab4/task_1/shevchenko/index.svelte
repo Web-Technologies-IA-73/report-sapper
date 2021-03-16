@@ -86,6 +86,22 @@
 </p>
 <p>Застосувати функції</p>
 
+<h3>Результат</h3>
+
+<label>
+    <p>Розмір масиву: {size}</p>
+    <input type=range bind:value={size} min=1 max=10>
+</label>
+
+<svelte:component
+        this={Prism}
+        language="shell-session"
+>{`
+$ inputArr: [${inputArr.join(', ')}]
+$ outArr: [${outArr.join(', ')}]
+$ max + min = ${outArr[outArr.length-1]} + ${outArr[0]} = ${outArr[outArr.length-1] + outArr[0]}
+`}</svelte:component>
+
 <h3>Код</h3>
 
 <svelte:component
@@ -153,23 +169,4 @@ const outArr = qSort(inputArr);
 
 console.log(inputArr);
 console.log(outArr);
-`}</svelte:component>
-
-<h3>Результат</h3>
-
-<label>
-    <p>Розмір масиву: {size}</p>
-    <input type=range bind:value={size} min=0 max=10>
-</label>
-
-<svelte:component
-        this={Prism}
-        language="shell-session"
-        showLineNumbers
->{`
-$ inputArr: [${inputArr}]
-$ outArr: [${outArr}]
-$ max: ${outArr[outArr.length-1]}
-$ min: ${outArr[0]}
-$ max + min = ${outArr[outArr.length-1]} + ${outArr[0]} = ${outArr[outArr.length-1] + outArr[0]}
 `}</svelte:component>
