@@ -33,6 +33,10 @@
                         segment: 'task_2',
                         href: 'lab4/task_2/shevchenko',
                         text: 'Індивідуальне завдання №2',
+                    },{
+                        segment: 'task_3',
+                        href: 'lab4/task_3/shevchenko',
+                        text: 'Індивідуальне завдання №3',
                     },
                 ]}
         />
