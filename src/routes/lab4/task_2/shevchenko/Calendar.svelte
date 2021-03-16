@@ -1,42 +1,4 @@
 <script lang="ts">
-    import {onMount} from "svelte";
-    import Calendar from './Calendar.svelte';
-
-    let Prism;
-    onMount(async () => {
-        // Load the prismjs first after the page is loaded
-        const prismModule = await import('svelte-prismjs');
-        await Promise.all([
-            import('prismjs/themes/prism-okaidia.css'),
-            import('prismjs/components/prism-xml-doc.js'),
-            import('prismjs/components/prism-shell-session.js'),
-            import('prismjs/plugins/line-numbers/prism-line-numbers.css'),
-        ]);
-        // Once everything is loaded load the prismjs module
-        Prism = prismModule.default;
-    });
-</script>
-
-<h3>Варіант №6</h3>
-
-<p><b>Календар</b></p>
-<p>
-    Реалізувати можливість вибору дати у елемент форми з спеціального візуального компоненту. Вимоги до компоненту:
-    вибір числа, перехід між місяцями та роками, відміна вибору дати.
-</p>
-
-<h3>Результат</h3>
-
-<Calendar/>
-
-<h3>Код</h3>
-
-<svelte:component
-        this={Prism}
-        language="html"
-        showLineNumbers
->{`
-<script lang="ts">
     function daysInMonth(month: number, year: number): number {
         return new Date(year, month + 1, 0).getDate();
     }
@@ -200,20 +162,20 @@
                         value="{
                         selected
                             ? selected.asDate().toDateString()
-                            : \`\${[
-    'Jan',
-    'Feb',
-    'Mar',
-    'Apr',
-    'May',
-    'Jun',
-    'Jul',
-    'Aug',
-    'Sep',
-    'Oct',
-    'Nov',
-    'Dec',
-][month]} \${year}\`
+                            : `${[
+                                'Jan',
+                                'Feb',
+                                'Mar',
+                                'Apr',
+                                'May',
+                                'Jun',
+                                'Jul',
+                                'Aug',
+                                'Sep',
+                                'Oct',
+                                'Nov',
+                                'Dec',
+                            ][month]} ${year}`
                         }"
                 />
             </label>
@@ -315,4 +277,3 @@
         background-color: whitesmoke;
     }
 </style>
-`}</svelte:component>
