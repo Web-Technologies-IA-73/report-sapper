@@ -57,9 +57,6 @@
         <li><a aria-current="{segment === 'lab4' ? 'page' : undefined}" href="lab4">Лабораторна №4</a></li>
         <li><a aria-current="{segment === 'lab5' ? 'page' : undefined}" href="lab5">Лабораторна №5</a></li>
         <li><a aria-current="{segment === 'lab6' ? 'page' : undefined}" href="lab6">Лабораторна №6</a></li>
-        <li><a aria-current="{segment === 'lab7' ? 'page' : undefined}" href="lab7">Лабораторна №7</a></li>
-        <li><a aria-current="{segment === 'lab8' ? 'page' : undefined}" href="lab8">Лабораторна №8</a></li>
-        <li><a aria-current="{segment === 'lab9' ? 'page' : undefined}" href="lab9">Лабораторна №9</a></li>
 
         <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
              the blog data when we hover over the link or tap it on a touchscreen -->

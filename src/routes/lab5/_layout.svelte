@@ -19,6 +19,11 @@
                         href: 'lab5',
                         text: 'Постановка задачі',
                     },
+                    {
+                        segment: 'solution',
+                        href: 'lab5/solution',
+                        text: 'Виконання',
+                    },
                 ]}
         />
     </div>
